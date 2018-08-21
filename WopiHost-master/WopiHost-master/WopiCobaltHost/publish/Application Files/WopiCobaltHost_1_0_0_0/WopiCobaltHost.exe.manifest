@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WopiCobaltHost.exe" version="1.0.0.0" publicKeyToken="4614fc6ca027cc5e" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WopiCobaltHost" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WopiCobaltHost.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+         若想要更改 Windows 用户帐户控制级别，请
+         将 requestedExecutionLevel 节点替换为下述某项。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        若想要使用文件和注册表虚拟化以实现向后
+        兼容，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WopiCobaltHost.exe" size="22936">
+      <assemblyIdentity name="WopiCobaltHost" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UKq0lISJF4yCx1c6CroTRs+6p/z5mKwx0I2iVRgIwNc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WopiCobaltHost.exe.config" size="182">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PbQiHFOih9uz3RPvvsStiPKcsu3PE8/gyCn2QGUyyf4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ERIC\Eric" issuerKeyHash="5dcf5a960926793cd81371ed5bc02a70d0ea9fac" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GMe432G3VmNbQxSmzSW0Do3U6Dx5g16OJVwLJjVId18=</DigestValue></Reference></SignedInfo><SignatureValue>iKXTgURXrJiy4hueUXA6Ma4HKV8AtAlCYxceFde3TOJIjKOLqxf9rAPNAJVXHjLdgCmy031lyccwM1rv7KhGj/58RjB5mYtKyno2Fufra6dZiEjW2dWlOn3dR4yfQx8UJNwTmNaZAtJP0Bg2zW3fJwnnvaIr9WMJ6k6CvzRhHIM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qDsNCPC9r80jjnMmZgL7go11W1jKqZUDpkDFu4I3Npu6VWuRCnAkhEqYWbb9sCQsTM9UqQAxnIQmykOn+exBhfg+zIZDeTGREEhGR6sxIMkLzedO5YRrVEw9uwEckkleXjWUwT2KJ9oc+GMyDX/l27cF1m9S2ej355EMAWekh6k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5f774835260b5c258e5e83793ce8d48d0eb425cda614435b6356b761dfb8c718" Description="" Url=""><as:assemblyIdentity name="WopiCobaltHost.exe" version="1.0.0.0" publicKeyToken="4614fc6ca027cc5e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ERIC\Eric</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>383XIImCNpeq5KugiV83TqOd7VacbPea9uBZweEeKpw=</DigestValue></Reference></SignedInfo><SignatureValue>hfTbqRr+KghhLjoWjK9Rqk/weguaNuTaYLF0wHgsbkNoNAel2pzOOgn6sDYIkcfbGJUD/EtN1nnmpEv9t7JiHzlfq+vQcLuDMg4USVla1ulXUYqQLeX7Zg7/ZUWN8cdFPoe0TkICwgT0515iL5EyswdWr6XUtdVmPH+O9d8Py00=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qDsNCPC9r80jjnMmZgL7go11W1jKqZUDpkDFu4I3Npu6VWuRCnAkhEqYWbb9sCQsTM9UqQAxnIQmykOn+exBhfg+zIZDeTGREEhGR6sxIMkLzedO5YRrVEw9uwEckkleXjWUwT2KJ9oc+GMyDX/l27cF1m9S2ej355EMAWekh6k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQe67BP/bW3oxA3lfg3OOrhDANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIARQBSAEkAQwBcAEUAcgBpAGMwHhcNMTgwNDI0MDQyMzI2WhcNMTkwNDI0MTAyMzI2WjAdMRswGQYDVQQDHhIARQBSAEkAQwBcAEUAcgBpAGMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKg7DQjwva/NI45zJmYC+4KNdVtYyqmVA6ZAxbuCNzabulVrkQpwJIRKmFm2/bAkLEzPVKkAMZyEJspDp/nsQYX4PsyGQ3kxkRBIRkerMSDJC83nTuWEa1RMPbsBHJJJXl41lME9iifaHPhjMg1/5du3BdZvUtno9+eRDAFnpIepAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAf52/qsmFu1JRrAqzqmk3n8UUyFfdXAnrUA74YCwv2FSJR/n4SYOSErTLdOE4LF4EzrQSejLbvEYxnYttlfWCxX1MpJku/GC1kaAVSYGW9azThRrz58XoZcRUg/k5kAqAXrXnRIKE9i+C7Aa63rbZygBW8SrvKlXMX5stKighjfc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
