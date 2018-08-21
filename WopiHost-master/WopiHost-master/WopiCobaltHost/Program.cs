@@ -14,7 +14,7 @@ namespace WopiCobaltHost
     {
         static void Main()
         {
-            CobaltServer svr = new CobaltServer(@"F:\\files\\wpoi\\22\\111");
+            CobaltServer svr = new CobaltServer(@"F:\\files\\wpoi\\221\\111");
             svr.Start();
 
             Console.WriteLine("A simple wopi webserver. Press any key to quit.");
